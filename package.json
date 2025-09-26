@@ -1,0 +1,28 @@
+{
+  "name": "horsepower-electrical",
+  "version": "1.0.0",
+  "description": "Website for Horsepower Electrical business",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "electrical",
+    "business",
+    "website"
+  ],
+  "author": "Horsepower Electrical",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "bcryptjs": "^3.0.2"
+  }
+}
+
