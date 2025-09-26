@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
-    "bcryptjs": "^3.0.2"
+    "bcryptjs": "^3.0.2",
+    "react-scripts": "^5.0.1"
   }
 }
-
